@@ -1,0 +1,32 @@
+variable inside class called "property"
+variable outside class called "variable"
+$this: btt3aml m3 el properties el f class
+self: btt3aml m3 el constant el f elclass
+abstract class : mynf34 n3ml mno objects m3mol 34an t3ml inherit mno 
+               : m3mol 34an ytktb feh function fadia ta5odha tst5dmh f ay 7eta bara
+	       : can have abstract and non pstract method
+	       : abstract method lazm tst3mlha fe leclass el inherit mno  
+polymorphism   : classes that have differnet functionality but share the same view
+ 		: methods that not contain body code
+		: keyword esmha interface
+		: 34an ast5dm class bktb esmo b3den implements esm elinterface
+public 		: called any scope lw mktbt4 by3tbr nha public
+protected	: inside class or any class extend it 
+private 	: inside class bs lakn elclass el by3mlo extend myd5ol4 3lihh 
+magic methods   : [__construct]-> awl my3ml create object bttb3 elgwa elconstruct abl ay 7aga tani lw gwa argument bnadeha f el object
+		: [__Destruct]-> disconnect or die or destroied llobject
+		: [__call]->btst5dmha lma tkon 3ayz tst5dm method not accesssible for you
+			-> accept two paramters{methods,params}
+		: [__get]-> zai call bs lma tkon 3ayz tst5dm property m4 accessible for you
+			 -> one parameter [$prop]
+		:[_set]-> lma btegy t7ot value l property m4 mwgoda 3ndha 2 argument[$prop,$value]
+		:[clone]->copy of object by refrence $copy = clone $main kda lw 8yrt f wa7d lw7do hy4t8l
+chaibibg methods : trun kol el methods f str wa7d e3ml f kol method t5liha t return #this ;
+traits		 : a3rf a3ml inherteince mn aktr mn mkan 
+		 :mynf34 a3ml mno object aw mynf34 a3ml inhertince mno hwa bs bysa3d elclass 
+		 : fe methods we 3ndo priority over class eh awla mn a trait awla mn class 
+		 : ast5dmha ezay b atb {use (Esm eltrait)}
+		: lw 7sl t3arod bagy f elclass a3ml lltraits elmbenhom t3ard use b3den bktb el traits el 3ayz ast5dmha ezay ?
+			-> trait name:: method name insteadof other method name
+			-> trait name :: methodname as new name
+spl_autoload_register(function($class))
